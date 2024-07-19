@@ -9,12 +9,12 @@
 //  string and variable  
 
 
- let Name="Harry"
- let Name1="jdgnjdn"
+//  let Name="Harry"
+//  let Name1="jdgnjdn"
 
 //  console.log(Name1)
 //  console.log("jjjjjjjjjjbjbjbjbjbj")
-let MyName ='My name is Shivam' 
+// let MyName ='My name is Shivam' 
 //  console.log("MiiyName")
 
 
@@ -86,8 +86,8 @@ let MyName ='My name is Shivam'
 
 
 
-let a= 20
-let b= 20
+// let a= 20
+// let b= 20
 
 // if(a>b){
 //     console.log("a is greater than b")
@@ -288,3 +288,124 @@ let b= 20
 // for(let i=0;i<=20;i+=2){
 //     console.log(i)
 // }
+
+//  we have to print all the even and odd numbers b/w 0-20 .
+
+
+// for(i=0;i<=20;i++){
+//     if(i%2==0){
+//         console.log(`number is even ${i}`)
+//     }else{
+//         console.log("number is odd no.",i)
+//     }
+// }
+
+// let a= 3
+// let b="6"
+// console.log(typeof b) 
+// console.log(a + +b) 
+
+
+//                                        Array
+
+//  Array is a collection of similar type of data that share a common name and a contiguous block of memory .
+
+
+// let id = [1,2,3,4,5,6,7,8,9]
+
+// let Name =['Rohit', 'Amit' , '  Pratibha  ', 'Meena', 'Riya', 'Shivangi', 'Ashish', 'Nirmal', 'Aish Nautiyal']
+
+// let Course =['B.Sc', 'BCA' , 'B.tech', 'B.tech' , 'MCA', 'Ungraduate', 'B.Sc' , 'B.Com','B.Sc']
+
+// let person=["RG Sharma", 'Nagpur', +919415863967 ,"356/324/1037" , 37 , true  ]
+
+// push pop shift unshift
+// pop removes the last element from the array
+// shift removes the first element from the array
+// unshift adds the element at the first position of the array
+// push adds the element at the last position of the array
+
+// Name.shift()
+// Name.push('Rohit')
+
+// console.log(Name)
+
+
+// let A= [1,2,3,4,5,6,7,8]
+// let B =[ 10,20,30,40,50,60,70,80]
+
+// let C =[...A , ...B]
+// console.log(...A)
+
+// for in   for of 
+
+// for(i in B){
+//     console.log(i)
+// }
+// for(i of B){
+//     console.log(i)
+// }
+
+
+// for(i of A){
+// //   console.log(A[i])
+//    if(i%2==0){
+//     console.log(i)
+//    }
+
+// }
+
+// for(i=0;i<A.length;i++){
+//     // console.log(A[i])
+//     if(A[i]%2==0){
+//         console.log(A[i])
+//     }
+// }
+// let FirstQuestionArray =[ 1,20,10,30,40,10,50,70,10] 
+
+// let B =[ 10,1000,30,400,50,600,70,80]
+
+// // 50 exists or not 
+// let count = 0
+
+// let key =10 
+
+// for( j in FirstQuestionArray){
+    
+//     if(FirstQuestionArray[j]==key){
+//             count ++ 
+//         }
+//     }
+//     console.log(`yes its exists ${count} times`)
+
+//     let Arr =[ 1,20,10,30,40,10,50,70,10] 
+//  let max=0
+//  let min= 0
+//     for(i=0; i<Arr.length;i++){
+  
+//         if(Arr[i]>max){
+//                 min =max
+//             max = Arr[i]
+//         }
+        
+//     }
+//     console.log(`max is ${max} and min is ${min}`)
+    // console.log(max)
+
+
+//      let Arr =[ 1,20,10,30,40,10,50]
+  
+// let sum =0
+
+//      for(k in Arr){
+//         sum+=Arr[k]
+//      }
+//      console.log(sum)
+
+
+
+     
+
+// Question :- write  a program to reverse an Array    
+
+
