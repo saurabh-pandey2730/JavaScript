@@ -311,7 +311,7 @@
 //  Array is a collection of similar type of data that share a common name and a contiguous block of memory .
 
 
-// let id = [1,2,3,4,5,6,7,8,9]
+// let id = [1,2,3,4,5,7,8,9]
 
 // let Name =['Rohit', 'Amit' , '  Pratibha  ', 'Meena', 'Riya', 'Shivangi', 'Ashish', 'Nirmal', 'Aish Nautiyal']
 
@@ -408,4 +408,339 @@
 
 // Question :- write  a program to reverse an Array    
 
+//                   let                  const                              var    
 
+               //  block                  block                          global
+            //    redeclare               not allowed                     redeclare    
+
+
+            // const a =10 
+
+            // {
+                
+                
+            //     console.log(a)
+                
+            //     {
+            //         let b=20
+            //     }
+            //   console.log(b)
+            // }
+
+
+            // functions   
+            // 1. function declaration
+            // 2. function expression
+            // 3. arrow function expression 
+           
+
+
+            // 1. function declaration
+
+            //  function Greet(){
+            //     console.log("hello ....")
+            //     console.log("How are you")
+            //     console.log("Tea or  Coffee")
+            //     console.log("Thank you")
+            //     console.log("Bye... visit again")
+            //  }
+        //  Greet()
+
+
+         // 2. function expression
+        
+    //    const Greet =  function (){
+    //         console.log("hello ....")
+    //         console.log("How are you")
+    //         console.log("Tea or  Coffee")
+    //         console.log("Thank you")
+    //         console.log("Bye... visit again")
+    //      }
+    //  Greet()
+
+         // 3. arrow function expression 
+
+
+    //         const Greet = ()=>{
+    //         console.log("hello ....")
+    //         console.log("How are you")
+    //         console.log("Tea or  Coffee")
+    //         console.log("Thank you")
+    //         console.log("Bye... visit again")
+    //      } 
+    //  Greet()
+
+    //  parametrized 
+//     non-parametrized
+    
+
+ 
+    //  parametrized 
+
+                // const Greet = (a,b , d , z , hello)=>{
+                //     console.log(a)
+                //     console.log(b)
+                //     console.log(d)
+                //     console.log(z)
+                //     console.log(hello)
+                // } 
+                // Greet(  "welcome", "good morning" , "How are you", "coldrink", "Thanks visit again") 
+
+                //  I'll take two numbers as a parameter  and sum them
+                  
+                
+                // const sum = (a,b)=>{
+                //             console.log(a*b)
+                //         }
+
+                //       sum(10,20)
+
+                        
+            //   function Greet(a,b , d , z , hello){
+            //         console.log(a)
+            //         console.log(b)
+            //         console.log(d)
+            //         console.log(z)
+            //         console.log(hello)
+            //     } 
+            //     Greet(  "welcome", "good morning" , "How are you", "coldrink", "Thanks visit again") 
+
+
+
+            //  90 ka 80 kitna percent hoga 
+            // 90  ka 9  ->  10% 
+            // 90  ka 18  ->  20%
+            // 90 ka 81 ->  90%
+
+
+            // 90 ka 80  ->  
+
+
+            // const student =(a,b,c,d,e)=>{
+            //      let avg = (a+b+c+d+e)/5
+            //     //  console.log(avg)
+            //      if(avg>33){
+            //         console.log("pass")
+            //         if(avg>90){
+            //             console.log("A+ grade")
+            //         }
+            //      }else{
+            //         console.log("fail")
+            //      }
+            // }
+             
+            // student(220,140,60,80,30)
+
+            // if any number is less than 33  or average less than 33  => fail  
+            // if any number is greater than 100  => invalid marks
+            // if average is greater than 90 => A+ grade 
+
+            // let Marks_Calculator= (a,b,c,d)=>{
+             
+            //     if(a<33 || b<33 ||c<33 || d<33 ){
+            //         return " Sorry !!! You are Fail"
+            //     } else if(a>100 || b>100 ||c>100 || d>100){
+            //              return " Invalid Marks"
+            //     }else{
+            //          let avg = (a+b+c+d ) / 4
+            //          if(avg>90){
+            //             return " pass with A+ grade"
+            //          }else{
+            //             return "pass"
+            //          }
+            //     }
+            // }
+
+        //    console.log( Marks_Calculator(100,100,100,61))
+         
+
+        //    const multiply = function (a,b){
+        //            return a 
+        //            console.log("hello")
+        //    }
+        //    console.log(multiply(10,200))
+
+
+    // take array as a input and return its greatest number 
+
+            // let Arr= [30,100,20,50,80,60]
+            
+           
+
+
+    //   let Greatest_Number=(aa)=>{
+    //     let max=0
+    //     for(i=0;i<aa.length;i++){
+    //         if(aa[i]>max){
+    //          max=aa[i]
+    //          }
+    //      }
+    //         return max
+    //   }
+
+    
+    //  console.log( Greatest_Number([30,100,20,500,80,60]))
+    //  console.log( Greatest_Number(Arr))
+      
+                
+    //                    Destructuring
+
+    function Destructuring( ...d){
+        // console.log( typeof d)
+    }
+
+    Destructuring(10,20,30,40,50,60,70,80)
+
+    let A=[20,30,40,50,60,70]
+    // console.log( typeof A)
+
+
+    // a function , input array , array me ek no. mutiple times , uska count btana hai ki woh no kitni baar uss array me aaya ahai
+
+    //     Objects 
+
+    let person2 ={
+       "First Name":"Rahul",
+        age:20,
+        gender:"male",
+        "address":"Delhi",
+        hobbies:["cricket","football","reading","writing","coding","drawing","painting"],
+        isMarried:false,
+        
+      
+    }
+
+    // console.log(person.address)
+//    person.phone = 55625151
+//    person.age=30
+    // console.log(person.age,person.gender)
+
+    // loops in objects  
+
+    // for in 
+
+    // for(let key in person){
+    //     console.log(person[key])
+    //     }
+
+    //  destructuring in objects 
+
+//    const person1={
+//     "First Name":"Rahul",
+//     age:202,
+//     gender:"male",
+//     "address":"Delhi",
+//     hobbies:["cricket","football","reading","writing","coding","drawing","painting"],
+//     isMarried:false,
+//     phone:55625151
+//    }
+
+// //    let {age, gender,phone} = person1
+
+// //    console.log(age)
+
+// //    objects in Array  
+
+// const person=[{
+//     "id": 1,
+//     "first_name": "Nickie",
+//     "last_name": "Southorn",
+//     "email": "nsouthorn0@t.co",
+//     "gender": "Male",
+//     "phone": "+86 988 458 8839"
+//   }, {
+//     "id": 2,
+//     "first_name": "Priya",
+//     "last_name": "Guyet",
+//     "email": "pguyet1@psu.edu",
+//     "gender": "Male",
+//     "phone": "+225 201 122 8186"
+//   }, {
+//     "id": 3,
+//     "first_name": "Neda",
+//     "last_name": "Chapell",
+//     "email": "nchapell2@chicagotribune.com",
+//     "gender": "Female",
+//     "phone": "+55 296 146 2266"
+//   }, {
+//     "id": 4,
+//     "first_name": "Dewie",
+//     "last_name": "Argontt",
+//     "email": "dargontt3@umich.edu",
+//     "gender": "Male",
+//     "phone": "+62 933 617 6542" 
+//   }, {
+//     "id": 5,
+//     "first_name": "Cloe",
+//     "last_name": "Oakshott",
+//     "email": "coakshott4@about.me",
+//     "gender": "Female",
+//     "phone": "+1 864 342 0870"
+//   }]
+
+
+//   let [
+//     {first_name:name1},
+//     { first_name},
+//     {phone}
+//     ,{email}
+//     ,{ gender}
+// ] = person
+
+// console.log(first_name)
+
+// sets 
+
+
+// let arr =[1,1 ,2, 3, 4, 5  ,5]
+// const set = new Set(arr)
+// console.log(set)
+
+// if(set.has(4)){
+//     console.log("yes")
+// }
+// else{
+//     console.log("no")
+// }
+
+
+
+//   callback     most important     
+                               
+
+// function hello(a){
+//   console.log(a)
+//   console.log("hello1")
+// }
+
+
+// function fun(b){
+//   console.log("fun1")
+//  console.log(b)
+// }
+
+// fun(hello(5))
+
+
+
+// const double= function(a){
+  //       for(key of a){
+    //         console.log( key*2)
+    //       }
+    // }
+    
+    
+    let Ar=[5,10,4,2,9,6,3]
+
+const double=function(a){
+      console.log(a*2)
+}
+
+// Ar.map(double)
+
+Ar.map(   (a)=>{
+     console.log(a*3)
+}       )
+                  // const H =Ar.map(a=>a*3 )
+
+                  console.log(H)
