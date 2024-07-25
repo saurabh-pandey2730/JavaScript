@@ -730,17 +730,56 @@
     // }
     
     
-    let Ar=[5,10,4,2,9,6,3]
+//     let Ar=[5,10,4,2,9,6,3]
 
-const double=function(a){
-      console.log(a*2)
-}
+// const double=function(a){
+//       console.log(a*2)
+// }
 
 // Ar.map(double)
 
-Ar.map(   (a)=>{
-     console.log(a*3)
-}       )
+// Ar.map(   (a)=>{
+//      console.log(a*3)
+// }       )
                   // const H =Ar.map(a=>a*3 )
 
-                  console.log(H)
+                //   console.log(H)
+
+
+                // callback 
+
+                // const square=function(a){
+                //     console.log("Square function")
+                //   console.log(a*a)
+
+                // }
+                // const cube=function(a){
+                //     console.log(a)
+                //     console.log("Cube function")
+                //     }
+
+               
+    //                let Arr =[2,5,4,6,3,8]
+
+    //                let square=function(a){
+    //                 console.log(a*a)
+    //                }
+
+    //             //  square(5)
+
+    //             Arr.map(square) 
+    //          let sq=    Arr.map((a)=>{
+    //                 return a*a
+    //             })  
+    //    console.log( Arr.map((a)=>a*a))
+                
+            //     let Arr =["john", "susan","rohit","nirmal",] 
+
+            //    console.log( Arr.map((a)=>{
+            //  return  a.toUpperCase()
+            
+            // }))
+                    
+
+// question    take a array and return its largest number  using map method 
+// question2      take a array and return all the even mumbers of that array
